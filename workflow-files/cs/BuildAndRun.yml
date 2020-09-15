@@ -8,6 +8,10 @@ jobs:
   build:
  
     runs-on: windows-latest
+    
+     env:
+      Solution_Name: CaseStudyRough/CaseStudyRough.sln                       # Replace with your solution name, i.e. MyWpfApp.sln.
+#      Test_Project_Path: your-test-project-path                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
  
     steps:
     - uses: actions/checkout@v1
